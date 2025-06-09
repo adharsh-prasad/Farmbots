@@ -1,44 +1,49 @@
-# MATLAB-Based Terrain Simulation and Plowing Path Planning
+# Particle-Based Soil Simulation for Agricultural Robotics (Python)
 
-This project simulates an agricultural rover operating in a 3D terrain environment. It focuses on terrain modeling, autonomous path planning using A* and spiral patterns, and simulating soil-leveling behavior via multiple passes. The simulation visualizes the rover's motion, terrain deformation, and plow coverage in real-time.
+This project simulates interactive soil behavior using a particle system in Python. A rover moves through a granular terrain composed of stacked particles, which respond dynamically to motion and collision. The simulation uses Mayavi for 3D visualization, NumPy for particle logic, and Numba for performance optimization.
 
 ## 📌 Project Goals
-- Model realistic farmland terrain using sinusoidal waves and random noise
-- Simulate rover movement and plowing action
-- Optimize terrain leveling using intelligent path planning
-- Support multi-agent rover deployment with modular design
+- Simulate granular terrain deformation caused by rover movement
+- Visualize real-time rover-soil interaction in 3D
+- Implement a particle system capable of stacking, collapsing, and shifting
+- Build a modular pipeline in pure Python without external physics engines
 
 ## 📁 File Structure
 | File | Description |
 |------|-------------|
-| `main_simulation.m` | Main script to run the full simulation |
-| `terrain_generator.m` | Generates farm terrain with bumps and elevation noise |
-| `rover_class.m` | Defines rover properties and terrain-following motion |
-| `path_planning.m` | Contains A*, spiral, and rectangular spiral plowing logic |
-| `plow_tracker.m` | Tracks terrain deformation using a plow count matrix |
-| `visualization_tools.m` | Handles real-time terrain and rover visualization |
+| `particle_simulator.py` | Main simulation loop and rendering logic |
+| `rover.py` | Defines rover structure, position update, and visualization |
+| `terrain_generator.py` | Generates terrain elevation from procedural functions |
+| `mayavi_visualizer.py` | Handles 3D point cloud rendering of soil particles |
+| `physics_utils.py` | Contains Numba-accelerated soil behavior functions |
 
 ## ▶️ How to Run
-1. Open `main_simulation.m` in MATLAB (R2021b or later recommended).
-2. Run the script to launch the simulation.
-3. The visualization will include:
-   - 3D terrain elevation map
-   - Real-time rover movement
-   - Plow count heatmap indicating leveling intensity
+1. Install dependencies:
+   ```bash
+   pip install numpy mayavi pygame numba
+2. Run the simulation:
+   ```bash
+   python particle_simulator.py
 
-## 🧠 Key Features
-- A* and spiral path planning optimized for plow coverage
-- Multi-pass terrain leveling with diminishing returns logic
-- Dynamic rover orientation based on local terrain gradient
-- Real-time visualization using `surf`, `patch`, and color mapping
-- Scalable to multiple rovers via object-oriented design
+🧠 Key Features
+Real-time terrain deformation as the rover pushes through particles
 
-## 🔧 Requirements
-- MATLAB R2021b or later
-- Image Processing Toolbox (for Gaussian smoothing and visualization)
+Stack-based particle simulation with toppling and compression behavior
 
-## 📸 Output
-- Terrain surface with rover path
-- Plow heatmaps over multiple passes
-- Animation of rover motion and leveling progression
+Dynamic rover height adjustment based on local elevation
 
+Mayavi-powered 3D visualization with color-coded soil layers
+
+Optimized performance with Numba to handle >10k particles interactively
+
+🔧 Requirements
+Python 3.10+
+
+NumPy, Mayavi, Pygame, Numba (see requirements.txt if available)
+
+📸 Output
+3D soil terrain updated in real-time as rover moves
+
+Visual feedback for terrain compression, deformation, and rover height
+
+Optional screenshot/GIFs folder (media/) if shared in zipped folder
