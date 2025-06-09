@@ -1,0 +1,58 @@
+import numpy as np
+from mayavi import mlab
+from scipy.ndimage import gaussian_filter
+
+# Set up the terrain dimensions
+width = 5
+height = 5
+resolution = 0.01
+particle_radius = 0.005
+
+# Generate the terrain
+x = np.arange(0, width + resolution, resolution)
+y = np.arange(0, height + resolution, resolution)
+X, Y = np.meshgrid(x, y)
+
+# Generate the terrain using sinusoidal variations
+amplitude_variation = 0.1 * np.random.rand(*X.shape)
+frequency_variation_x = 2 * np.pi * (0.1 * np.random.rand(*X.shape))
+frequency_variation_y = 2 * np.pi * (0.1 * np.random.rand(*Y.shape))
+Z = amplitude_variation * np.sin(frequency_variation_x * X) * np.cos(frequency_variation_y * Y)
+
+# Add bumps for texture
+num_bumps = 2000
+for _ in range(num_bumps):
+    x_center = np.random.rand() * width
+    y_center = np.random.rand() * height
+    height = 1 * (0.005 + 0.025 * np.random.rand()) * np.random.randn()
+    width = 0.1 + 0.2 * np.random.rand()
+    Z += height * np.exp(-((X - x_center)**2 + (Y - y_center)**2) / (2 * width**2))
+
+# Ensure positive terrain and smooth with Gaussian filter
+Z = np.abs(Z)
+Z = gaussian_filter(Z, sigma=1)
+
+# Create particles filling the height
+particles = []
+for i in range(Z.shape[0]):
+    for j in range(Z.shape[1]):
+        num_particles = int(Z[i, j] / (2 * particle_radius))
+        for k in range(num_particles):
+            particles.append((X[i, j], Y[i, j], k * 2 * particle_radius))
+
+particles = np.array(particles)
+
+print(np.size(particles))
+
+# Create the Mayavi figure
+mlab.figure(size=(800, 600), bgcolor=(0.95, 0.95, 0.95))
+
+# Plot the particles
+scatter = mlab.points3d(particles[:, 0], particles[:, 1], particles[:, 2], 
+                        scale_factor=particle_radius*2, color=(0.7, 0.5, 0.3))
+
+# Set the view
+mlab.view(azimuth=45, elevation=50, distance=10)
+
+# Show the plot
+mlab.show()
