@@ -1,0 +1,26 @@
+[0.640s] Invoking command in '/home/asgard/farmbot/src/farmbot_autonomous_pkg': PYTHONPATH=/home/asgard/farmbot/build/farmbot_autonomous_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/farmbot_autonomous_pkg build --build-base /home/asgard/farmbot/build/farmbot_autonomous_pkg/build install --record /home/asgard/farmbot/build/farmbot_autonomous_pkg/install.log --single-version-externally-managed install_data
+[0.896s] running egg_info
+[0.897s] writing ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/PKG-INFO
+[0.897s] writing dependency_links to ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/dependency_links.txt
+[0.897s] writing entry points to ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/entry_points.txt
+[0.897s] writing requirements to ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/requires.txt
+[0.897s] writing top-level names to ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/top_level.txt
+[0.899s] reading manifest file '../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/SOURCES.txt'
+[0.900s] writing manifest file '../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/SOURCES.txt'
+[0.900s] running build
+[0.900s] running build_py
+[0.900s] copying farmbot_autonomous_pkg/gps_publisher.py -> /home/asgard/farmbot/build/farmbot_autonomous_pkg/build/lib/farmbot_autonomous_pkg
+[0.901s] running install
+[0.901s] running install_lib
+[0.901s] copying /home/asgard/farmbot/build/farmbot_autonomous_pkg/build/lib/farmbot_autonomous_pkg/gps_publisher.py -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg
+[0.902s] byte-compiling /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg/gps_publisher.py to gps_publisher.cpython-310.pyc
+[0.903s] running install_data
+[0.903s] running install_egg_info
+[0.904s] removing '/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.905s] Copying ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg-0.0.0-py3.10.egg-info
+[0.905s] running install_scripts
+[0.924s] Installing gps_publisher script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+[0.924s] Installing vis_odem_node script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+[0.924s] Installing vision_node script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+[0.925s] writing list of installed files to '/home/asgard/farmbot/build/farmbot_autonomous_pkg/install.log'
+[0.946s] Invoked command in '/home/asgard/farmbot/src/farmbot_autonomous_pkg' returned '0': PYTHONPATH=/home/asgard/farmbot/build/farmbot_autonomous_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/farmbot_autonomous_pkg build --build-base /home/asgard/farmbot/build/farmbot_autonomous_pkg/build install --record /home/asgard/farmbot/build/farmbot_autonomous_pkg/install.log --single-version-externally-managed install_data

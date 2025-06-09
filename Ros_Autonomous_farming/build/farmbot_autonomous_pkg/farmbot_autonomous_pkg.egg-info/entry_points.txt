@@ -1,0 +1,8 @@
+[console_scripts]
+gps_pose_bridge = farmbot_autonomous_pkg.gps_pose_bridge:main
+gps_publisher = farmbot_autonomous_pkg.gps_publisher:main
+vis_odem_node = farmbot_autonomous_pkg.vis_odem_node:main
+vision_node = farmbot_autonomous_pkg.vision_node:main
+visual_imu = farmbot_autonomous_pkg.visual_imu:main
+yolo_node = farmbot_autonomous_pkg.yolo_node:main
+

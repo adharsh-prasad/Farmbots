@@ -1,0 +1,28 @@
+[2.370s] Invoking command in '/home/asgard/farmbot/src/farmbot_autonomous_pkg': PYTHONPATH=/home/asgard/farmbot/build/farmbot_autonomous_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/farmbot_autonomous_pkg build --build-base /home/asgard/farmbot/build/farmbot_autonomous_pkg/build install --record /home/asgard/farmbot/build/farmbot_autonomous_pkg/install.log --single-version-externally-managed install_data
+[2.609s] running egg_info
+[2.609s] writing ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/PKG-INFO
+[2.609s] writing dependency_links to ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/dependency_links.txt
+[2.610s] writing entry points to ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/entry_points.txt
+[2.610s] writing requirements to ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/requires.txt
+[2.610s] writing top-level names to ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/top_level.txt
+[2.611s] reading manifest file '../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/SOURCES.txt'
+[2.612s] writing manifest file '../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/SOURCES.txt'
+[2.612s] running build
+[2.612s] running build_py
+[2.612s] copying farmbot_autonomous_pkg/gps_publisher.py -> /home/asgard/farmbot/build/farmbot_autonomous_pkg/build/lib/farmbot_autonomous_pkg
+[2.878s] running install
+[2.879s] running install_lib
+[2.883s] copying /home/asgard/farmbot/build/farmbot_autonomous_pkg/build/lib/farmbot_autonomous_pkg/gps_publisher.py -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg
+[3.013s] byte-compiling /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg/gps_publisher.py to gps_publisher.cpython-310.pyc
+[3.014s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (gps_publisher.py, line 34)
+[3.015s] running install_data
+[3.015s] copying worlds/farmland.world -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/share/farmbot_autonomous_pkg/worlds
+[3.490s] running install_egg_info
+[3.494s] removing '/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.495s] Copying ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg-0.0.0-py3.10.egg-info
+[3.495s] running install_scripts
+[3.513s] Installing gps_publisher script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+[3.513s] Installing vis_odem_node script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+[3.513s] Installing vision_node script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+[3.513s] writing list of installed files to '/home/asgard/farmbot/build/farmbot_autonomous_pkg/install.log'
+[3.531s] Invoked command in '/home/asgard/farmbot/src/farmbot_autonomous_pkg' returned '0': PYTHONPATH=/home/asgard/farmbot/build/farmbot_autonomous_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/farmbot_autonomous_pkg build --build-base /home/asgard/farmbot/build/farmbot_autonomous_pkg/build install --record /home/asgard/farmbot/build/farmbot_autonomous_pkg/install.log --single-version-externally-managed install_data

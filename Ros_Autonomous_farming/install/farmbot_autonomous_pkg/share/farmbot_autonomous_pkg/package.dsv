@@ -1,0 +1,9 @@
+source;share/farmbot_autonomous_pkg/hook/pythonpath.ps1
+source;share/farmbot_autonomous_pkg/hook/pythonpath.dsv
+source;share/farmbot_autonomous_pkg/hook/pythonpath.sh
+source;share/farmbot_autonomous_pkg/hook/ament_prefix_path.ps1
+source;share/farmbot_autonomous_pkg/hook/ament_prefix_path.dsv
+source;share/farmbot_autonomous_pkg/hook/ament_prefix_path.sh
+source;../../build/farmbot_autonomous_pkg/share/farmbot_autonomous_pkg/hook/pythonpath_develop.ps1
+source;../../build/farmbot_autonomous_pkg/share/farmbot_autonomous_pkg/hook/pythonpath_develop.dsv
+source;../../build/farmbot_autonomous_pkg/share/farmbot_autonomous_pkg/hook/pythonpath_develop.sh

@@ -1,0 +1,18 @@
+[0.806s] Invoking command in '/home/asgard/farmbot/build/farmbot_autonomous_pkg': PYTHONPATH=/home/asgard/farmbot/build/farmbot_autonomous_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/asgard/farmbot/build/farmbot_autonomous_pkg/build --no-deps symlink_data
+[1.069s] running develop
+[1.275s] running egg_info
+[1.276s] writing farmbot_autonomous_pkg.egg-info/PKG-INFO
+[1.276s] writing dependency_links to farmbot_autonomous_pkg.egg-info/dependency_links.txt
+[1.276s] writing entry points to farmbot_autonomous_pkg.egg-info/entry_points.txt
+[1.276s] writing requirements to farmbot_autonomous_pkg.egg-info/requires.txt
+[1.276s] writing top-level names to farmbot_autonomous_pkg.egg-info/top_level.txt
+[1.277s] reading manifest file 'farmbot_autonomous_pkg.egg-info/SOURCES.txt'
+[1.278s] writing manifest file 'farmbot_autonomous_pkg.egg-info/SOURCES.txt'
+[1.321s] running build_ext
+[1.321s] Creating /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot-autonomous-pkg.egg-link (link to .)
+[1.322s] Installing vis_odem_node script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+[1.322s] Installing vision_node script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+[1.322s] 
+[1.322s] Installed /home/asgard/farmbot/build/farmbot_autonomous_pkg
+[1.322s] running symlink_data
+[1.348s] Invoked command in '/home/asgard/farmbot/build/farmbot_autonomous_pkg' returned '0': PYTHONPATH=/home/asgard/farmbot/build/farmbot_autonomous_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/asgard/farmbot/build/farmbot_autonomous_pkg/build --no-deps symlink_data

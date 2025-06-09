@@ -1,0 +1,190 @@
+[0.000000] (-) TimerEvent: {}
+[0.000112] (-) JobUnselected: {'identifier': 'farmbot_autonomous_pkg'}
+[0.000133] (ros_pospac_bridge) JobQueued: {'identifier': 'ros_pospac_bridge', 'dependencies': OrderedDict()}
+[0.000151] (ros_pospac_bridge) JobStarted: {'identifier': 'ros_pospac_bridge'}
+[0.007108] (ros_pospac_bridge) JobProgress: {'identifier': 'ros_pospac_bridge', 'progress': 'cmake'}
+[0.007437] (ros_pospac_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/asgard/farmbot/src/gps_publisher_ros2humble', '-DCMAKE_INSTALL_PREFIX=/home/asgard/farmbot/install/ros_pospac_bridge'], 'cwd': '/home/asgard/farmbot/build/ros_pospac_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'asgard'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/asgard/farmbot/install/rtabmap_conversions/lib:/home/asgard/farmbot/install/rtabmap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/asgard'), ('OLDPWD', '/home/asgard/farmbot/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1437'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fbd15d4c220aaa76f6fd833c6832a280'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/asgard/farmbot/install:/home/asgard/placement/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'asgard'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asgard'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models:/home/asgard/.gazebo/models:/home/asgard/.gazebo/models:/home/asgard/gazebo_models_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:/home/asgard/.gazebo/models:/home/asgard/placement/src/aws-robomaker-racetrack-world/models:/home/asgard/placement/src/car_demo:/home/asgard/.gazebo/models/terrain_model:/home/asgard/aws-robomaker-racetrack-world/models:/home/asgard/aws-robomaker-racetrack-world/models:/home/asgard/car_demo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/asgard/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asgard-HP-Pavilion-Gaming-Laptop-15-dk0xxx:@/tmp/.ICE-unix/1437,unix/asgard-HP-Pavilion-Gaming-Laptop-15-dk0xxx:/tmp/.ICE-unix/1437'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/87eab5ca_e4eb_4c8f_92db_f9acb039fc39'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0VGG72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.404'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/asgard/farmbot/install/rtabmap_conversions:/home/asgard/farmbot/install/rtabmap_msgs:/home/asgard/farmbot/install/farmbot_autonomous_pkg:/home/asgard/placement/install/self_driving_car_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asgard/farmbot/build/ros_pospac_bridge'), ('QT_QPA_PLATFORM', 'xcb'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fbd15d4c220aaa76f6fd833c6832a280'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/asgard/farmbot/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages:/home/asgard/placement/install/self_driving_car_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/asgard/farmbot/install/rtabmap_conversions:/home/asgard/farmbot/install/rtabmap_msgs:/home/asgard/farmbot/install/farmbot_autonomous_pkg:/home/asgard/placement/install/self_driving_car_pkg:/opt/ros/humble')]), 'shell': False}
+[0.057733] (ros_pospac_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099392] (-) TimerEvent: {}
+[0.107420] (ros_pospac_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.113876] (ros_pospac_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.178277] (ros_pospac_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.185253] (ros_pospac_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.185468] (ros_pospac_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.185837] (ros_pospac_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.188395] (ros_pospac_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199493] (-) TimerEvent: {}
+[0.262419] (ros_pospac_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.269677] (ros_pospac_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.269942] (ros_pospac_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.270335] (ros_pospac_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.272854] (ros_pospac_bridge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299571] (-) TimerEvent: {}
+[0.399797] (-) TimerEvent: {}
+[0.403326] (ros_pospac_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.499913] (-) TimerEvent: {}
+[0.532635] (ros_pospac_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.538334] (ros_pospac_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.546592] (ros_pospac_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.558252] (ros_pospac_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.574026] (ros_pospac_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600025] (-) TimerEvent: {}
+[0.618169] (ros_pospac_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.620992] (ros_pospac_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.699947] (ros_pospac_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.700077] (-) TimerEvent: {}
+[0.724820] (ros_pospac_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.763571] (ros_pospac_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.772463] (ros_pospac_bridge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800216] (-) TimerEvent: {}
+[0.838686] (ros_pospac_bridge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.839233] (ros_pospac_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900355] (-) TimerEvent: {}
+[0.932575] (ros_pospac_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.934201] (ros_pospac_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.989056] (ros_pospac_bridge) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.000450] (-) TimerEvent: {}
+[1.019239] (ros_pospac_bridge) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.030120] (ros_pospac_bridge) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.045798] (ros_pospac_bridge) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.046913] (ros_pospac_bridge) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.047074] (ros_pospac_bridge) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.100561] (-) TimerEvent: {}
+[1.139060] (ros_pospac_bridge) StdoutLine: {'line': b'-- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  \n'}
+[1.140921] (ros_pospac_bridge) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.143584] (ros_pospac_bridge) StdoutLine: {'line': b'-- Found autoware_sensing_msgs: 1.7.0 (/opt/ros/humble/share/autoware_sensing_msgs/cmake)\n'}
+[1.200695] (-) TimerEvent: {}
+[1.217083] (ros_pospac_bridge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.238299] (ros_pospac_bridge) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.242064] (ros_pospac_bridge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.242233] (ros_pospac_bridge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/asgard/farmbot/src/gps_publisher_ros2humble/include\n'}
+[1.242325] (ros_pospac_bridge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.243832] (ros_pospac_bridge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.247534] (ros_pospac_bridge) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.247679] (ros_pospac_bridge) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.248327] (ros_pospac_bridge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.250289] (ros_pospac_bridge) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.261189] (ros_pospac_bridge) StdoutLine: {'line': b'-- Generating done\n'}
+[1.264941] (ros_pospac_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/asgard/farmbot/build/ros_pospac_bridge\n'}
+[1.273716] (ros_pospac_bridge) CommandEnded: {'returncode': 0}
+[1.275290] (ros_pospac_bridge) JobProgress: {'identifier': 'ros_pospac_bridge', 'progress': 'build'}
+[1.275458] (ros_pospac_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asgard/farmbot/build/ros_pospac_bridge', '--', '-j12', '-l12'], 'cwd': '/home/asgard/farmbot/build/ros_pospac_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'asgard'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/asgard/farmbot/install/rtabmap_conversions/lib:/home/asgard/farmbot/install/rtabmap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/asgard'), ('OLDPWD', '/home/asgard/farmbot/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1437'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fbd15d4c220aaa76f6fd833c6832a280'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/asgard/farmbot/install:/home/asgard/placement/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'asgard'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asgard'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models:/home/asgard/.gazebo/models:/home/asgard/.gazebo/models:/home/asgard/gazebo_models_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:/home/asgard/.gazebo/models:/home/asgard/placement/src/aws-robomaker-racetrack-world/models:/home/asgard/placement/src/car_demo:/home/asgard/.gazebo/models/terrain_model:/home/asgard/aws-robomaker-racetrack-world/models:/home/asgard/aws-robomaker-racetrack-world/models:/home/asgard/car_demo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/asgard/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asgard-HP-Pavilion-Gaming-Laptop-15-dk0xxx:@/tmp/.ICE-unix/1437,unix/asgard-HP-Pavilion-Gaming-Laptop-15-dk0xxx:/tmp/.ICE-unix/1437'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/87eab5ca_e4eb_4c8f_92db_f9acb039fc39'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0VGG72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.404'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/asgard/farmbot/install/rtabmap_conversions:/home/asgard/farmbot/install/rtabmap_msgs:/home/asgard/farmbot/install/farmbot_autonomous_pkg:/home/asgard/placement/install/self_driving_car_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asgard/farmbot/build/ros_pospac_bridge'), ('QT_QPA_PLATFORM', 'xcb'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fbd15d4c220aaa76f6fd833c6832a280'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/asgard/farmbot/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages:/home/asgard/placement/install/self_driving_car_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/asgard/farmbot/install/rtabmap_conversions:/home/asgard/farmbot/install/rtabmap_msgs:/home/asgard/farmbot/install/farmbot_autonomous_pkg:/home/asgard/placement/install/self_driving_car_pkg:/opt/ros/humble')]), 'shell': False}
+[1.300795] (-) TimerEvent: {}
+[1.322454] (ros_pospac_bridge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros_pospac_bridge.dir/src/ros_pospac_bridge.cpp.o\x1b[0m\n'}
+[1.400897] (-) TimerEvent: {}
+[1.501164] (-) TimerEvent: {}
+[1.601456] (-) TimerEvent: {}
+[1.701794] (-) TimerEvent: {}
+[1.802112] (-) TimerEvent: {}
+[1.902400] (-) TimerEvent: {}
+[2.002657] (-) TimerEvent: {}
+[2.102933] (-) TimerEvent: {}
+[2.203212] (-) TimerEvent: {}
+[2.303472] (-) TimerEvent: {}
+[2.403771] (-) TimerEvent: {}
+[2.504033] (-) TimerEvent: {}
+[2.604468] (-) TimerEvent: {}
+[2.704742] (-) TimerEvent: {}
+[2.805005] (-) TimerEvent: {}
+[2.905342] (-) TimerEvent: {}
+[3.005733] (-) TimerEvent: {}
+[3.105994] (-) TimerEvent: {}
+[3.206250] (-) TimerEvent: {}
+[3.306531] (-) TimerEvent: {}
+[3.406806] (-) TimerEvent: {}
+[3.507077] (-) TimerEvent: {}
+[3.607338] (-) TimerEvent: {}
+[3.707610] (-) TimerEvent: {}
+[3.807867] (-) TimerEvent: {}
+[3.908129] (-) TimerEvent: {}
+[4.008387] (-) TimerEvent: {}
+[4.108687] (-) TimerEvent: {}
+[4.208952] (-) TimerEvent: {}
+[4.309236] (-) TimerEvent: {}
+[4.409519] (-) TimerEvent: {}
+[4.509845] (-) TimerEvent: {}
+[4.610107] (-) TimerEvent: {}
+[4.710373] (-) TimerEvent: {}
+[4.810668] (-) TimerEvent: {}
+[4.910957] (-) TimerEvent: {}
+[5.011226] (-) TimerEvent: {}
+[5.111519] (-) TimerEvent: {}
+[5.211795] (-) TimerEvent: {}
+[5.312062] (-) TimerEvent: {}
+[5.412346] (-) TimerEvent: {}
+[5.512619] (-) TimerEvent: {}
+[5.612883] (-) TimerEvent: {}
+[5.713147] (-) TimerEvent: {}
+[5.813441] (-) TimerEvent: {}
+[5.913713] (-) TimerEvent: {}
+[6.013993] (-) TimerEvent: {}
+[6.114263] (-) TimerEvent: {}
+[6.214531] (-) TimerEvent: {}
+[6.314859] (-) TimerEvent: {}
+[6.415130] (-) TimerEvent: {}
+[6.515413] (-) TimerEvent: {}
+[6.615738] (-) TimerEvent: {}
+[6.716148] (-) TimerEvent: {}
+[6.816806] (-) TimerEvent: {}
+[6.917321] (-) TimerEvent: {}
+[7.017582] (-) TimerEvent: {}
+[7.117838] (-) TimerEvent: {}
+[7.218135] (-) TimerEvent: {}
+[7.318380] (-) TimerEvent: {}
+[7.418637] (-) TimerEvent: {}
+[7.518865] (-) TimerEvent: {}
+[7.619072] (-) TimerEvent: {}
+[7.719321] (-) TimerEvent: {}
+[7.819610] (-) TimerEvent: {}
+[7.919875] (-) TimerEvent: {}
+[8.020194] (-) TimerEvent: {}
+[8.120503] (-) TimerEvent: {}
+[8.220810] (-) TimerEvent: {}
+[8.321064] (-) TimerEvent: {}
+[8.421339] (-) TimerEvent: {}
+[8.521563] (-) TimerEvent: {}
+[8.621813] (-) TimerEvent: {}
+[8.722102] (-) TimerEvent: {}
+[8.782249] (ros_pospac_bridge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ros_pospac_bridge\x1b[0m\n'}
+[8.822230] (-) TimerEvent: {}
+[8.922509] (-) TimerEvent: {}
+[9.022790] (-) TimerEvent: {}
+[9.121948] (ros_pospac_bridge) StdoutLine: {'line': b'[100%] Built target ros_pospac_bridge\n'}
+[9.122850] (-) TimerEvent: {}
+[9.132932] (ros_pospac_bridge) CommandEnded: {'returncode': 0}
+[9.134001] (ros_pospac_bridge) JobProgress: {'identifier': 'ros_pospac_bridge', 'progress': 'install'}
+[9.144008] (ros_pospac_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/asgard/farmbot/build/ros_pospac_bridge'], 'cwd': '/home/asgard/farmbot/build/ros_pospac_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'asgard'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/asgard/farmbot/install/rtabmap_conversions/lib:/home/asgard/farmbot/install/rtabmap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/asgard'), ('OLDPWD', '/home/asgard/farmbot/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1437'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fbd15d4c220aaa76f6fd833c6832a280'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/asgard/farmbot/install:/home/asgard/placement/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'asgard'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asgard'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models:/home/asgard/.gazebo/models:/home/asgard/.gazebo/models:/home/asgard/gazebo_models_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:/home/asgard/.gazebo/models:/home/asgard/placement/src/aws-robomaker-racetrack-world/models:/home/asgard/placement/src/car_demo:/home/asgard/.gazebo/models/terrain_model:/home/asgard/aws-robomaker-racetrack-world/models:/home/asgard/aws-robomaker-racetrack-world/models:/home/asgard/car_demo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/asgard/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asgard-HP-Pavilion-Gaming-Laptop-15-dk0xxx:@/tmp/.ICE-unix/1437,unix/asgard-HP-Pavilion-Gaming-Laptop-15-dk0xxx:/tmp/.ICE-unix/1437'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/87eab5ca_e4eb_4c8f_92db_f9acb039fc39'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0VGG72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.404'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/asgard/farmbot/install/rtabmap_conversions:/home/asgard/farmbot/install/rtabmap_msgs:/home/asgard/farmbot/install/farmbot_autonomous_pkg:/home/asgard/placement/install/self_driving_car_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asgard/farmbot/build/ros_pospac_bridge'), ('QT_QPA_PLATFORM', 'xcb'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fbd15d4c220aaa76f6fd833c6832a280'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/asgard/farmbot/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages:/home/asgard/placement/install/self_driving_car_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/asgard/farmbot/install/rtabmap_conversions:/home/asgard/farmbot/install/rtabmap_msgs:/home/asgard/farmbot/install/farmbot_autonomous_pkg:/home/asgard/placement/install/self_driving_car_pkg:/opt/ros/humble')]), 'shell': False}
+[9.152378] (ros_pospac_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.152552] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/lib/ros_pospac_bridge/ros_pospac_bridge\n'}
+[9.155058] (ros_pospac_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/asgard/farmbot/install/ros_pospac_bridge/lib/ros_pospac_bridge/ros_pospac_bridge" to ""\n'}
+[9.155282] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/launch\n'}
+[9.155351] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/launch/ros_pospac_bridge.launch.xml\n'}
+[9.155524] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/config\n'}
+[9.155589] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/config/ros_pospac_bridge.config.yaml\n'}
+[9.155907] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/include\n'}
+[9.155999] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/include/ros_pospac_bridge\n'}
+[9.156058] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/include/ros_pospac_bridge/ros_pospac_bridge.hpp\n'}
+[9.156142] (ros_pospac_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/launch\n'}
+[9.156192] (ros_pospac_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/launch/ros_pospac_bridge.launch.xml\n'}
+[9.156302] (ros_pospac_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/config\n'}
+[9.156355] (ros_pospac_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/config/ros_pospac_bridge.config.yaml\n'}
+[9.156408] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ament_index/resource_index/package_run_dependencies/ros_pospac_bridge\n'}
+[9.156461] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ament_index/resource_index/parent_prefix_path/ros_pospac_bridge\n'}
+[9.156540] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/environment/ament_prefix_path.sh\n'}
+[9.156623] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/environment/ament_prefix_path.dsv\n'}
+[9.156694] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/environment/path.sh\n'}
+[9.156765] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/environment/path.dsv\n'}
+[9.156837] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/local_setup.bash\n'}
+[9.156909] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/local_setup.sh\n'}
+[9.156984] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/local_setup.zsh\n'}
+[9.157061] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/local_setup.dsv\n'}
+[9.157171] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/package.dsv\n'}
+[9.157347] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ament_index/resource_index/packages/ros_pospac_bridge\n'}
+[9.157491] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.157584] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.157861] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/cmake/ros_pospac_bridgeConfig.cmake\n'}
+[9.157996] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/cmake/ros_pospac_bridgeConfig-version.cmake\n'}
+[9.158189] (ros_pospac_bridge) StdoutLine: {'line': b'-- Installing: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/package.xml\n'}
+[9.160078] (ros_pospac_bridge) CommandEnded: {'returncode': 0}
+[9.174467] (ros_pospac_bridge) JobEnded: {'identifier': 'ros_pospac_bridge', 'rc': 0}
+[9.174815] (-) EventReactorShutdown: {}

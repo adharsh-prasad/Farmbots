@@ -1,0 +1,1 @@
+/home/asgard/farmbot/build/rtabmap_msgs/rosidl_cmake/srv/GetNodeData_Response.msg

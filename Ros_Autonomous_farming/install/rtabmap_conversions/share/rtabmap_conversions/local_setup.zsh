@@ -1,0 +1,1 @@
+/home/asgard/farmbot/build/rtabmap_conversions/ament_cmake_environment_hooks/local_setup.zsh

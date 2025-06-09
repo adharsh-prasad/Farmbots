@@ -1,0 +1,29 @@
+[0.752s] Invoking command in '/home/asgard/farmbot/src/farmbot_autonomous_pkg': PYTHONPATH=/home/asgard/farmbot/build/farmbot_autonomous_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/farmbot_autonomous_pkg build --build-base /home/asgard/farmbot/build/farmbot_autonomous_pkg/build install --record /home/asgard/farmbot/build/farmbot_autonomous_pkg/install.log --single-version-externally-managed install_data
+[1.049s] running egg_info
+[1.050s] writing ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/PKG-INFO
+[1.050s] writing dependency_links to ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/dependency_links.txt
+[1.050s] writing entry points to ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/entry_points.txt
+[1.050s] writing requirements to ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/requires.txt
+[1.050s] writing top-level names to ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/top_level.txt
+[1.052s] reading manifest file '../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/SOURCES.txt'
+[1.090s] writing manifest file '../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/SOURCES.txt'
+[1.090s] running build
+[1.090s] running build_py
+[1.090s] copying farmbot_autonomous_pkg/gps_publisher.py -> /home/asgard/farmbot/build/farmbot_autonomous_pkg/build/lib/farmbot_autonomous_pkg
+[1.102s] running install
+[1.103s] running install_lib
+[1.103s] copying /home/asgard/farmbot/build/farmbot_autonomous_pkg/build/lib/farmbot_autonomous_pkg/gps_publisher.py -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg
+[1.104s] byte-compiling /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg/gps_publisher.py to gps_publisher.cpython-310.pyc
+[1.104s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (gps_publisher.py, line 37)
+[1.104s] running install_data
+[1.105s] copying worlds/farmland.world -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/share/farmbot_autonomous_pkg/worlds
+[1.105s] running install_egg_info
+[1.107s] removing '/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.107s] Copying ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg-0.0.0-py3.10.egg-info
+[1.116s] running install_scripts
+[1.139s] Installing gps_publisher script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+[1.139s] Installing vis_odem_node script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+[1.140s] Installing vision_node script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+[1.140s] Installing yolo_node script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+[1.140s] writing list of installed files to '/home/asgard/farmbot/build/farmbot_autonomous_pkg/install.log'
+[1.158s] Invoked command in '/home/asgard/farmbot/src/farmbot_autonomous_pkg' returned '0': PYTHONPATH=/home/asgard/farmbot/build/farmbot_autonomous_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/farmbot_autonomous_pkg build --build-base /home/asgard/farmbot/build/farmbot_autonomous_pkg/build install --record /home/asgard/farmbot/build/farmbot_autonomous_pkg/install.log --single-version-externally-managed install_data

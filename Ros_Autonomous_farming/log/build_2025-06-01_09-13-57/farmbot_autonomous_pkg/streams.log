@@ -1,0 +1,26 @@
+[2.584s] Invoking command in '/home/asgard/farmbot/build/farmbot_autonomous_pkg': PYTHONPATH=/home/asgard/farmbot/build/farmbot_autonomous_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/asgard/farmbot/build/farmbot_autonomous_pkg/build --no-deps symlink_data --force
+[2.883s] running develop
+[3.080s] running egg_info
+[3.080s] writing farmbot_autonomous_pkg.egg-info/PKG-INFO
+[3.081s] writing dependency_links to farmbot_autonomous_pkg.egg-info/dependency_links.txt
+[3.081s] writing entry points to farmbot_autonomous_pkg.egg-info/entry_points.txt
+[3.081s] writing requirements to farmbot_autonomous_pkg.egg-info/requires.txt
+[3.081s] writing top-level names to farmbot_autonomous_pkg.egg-info/top_level.txt
+[3.083s] reading manifest file 'farmbot_autonomous_pkg.egg-info/SOURCES.txt'
+[3.083s] writing manifest file 'farmbot_autonomous_pkg.egg-info/SOURCES.txt'
+[3.124s] running build_ext
+[3.124s] Creating /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot-autonomous-pkg.egg-link (link to .)
+[3.125s] Installing gps_pose_bridge script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+[3.125s] Installing gps_publisher script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+[3.125s] Installing vis_odem_node script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+[3.125s] Installing vision_node script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+[3.125s] Installing yolo_node script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+[3.125s] 
+[3.126s] Installed /home/asgard/farmbot/build/farmbot_autonomous_pkg
+[3.126s] running symlink_data
+[3.126s] symbolically linking /home/asgard/farmbot/build/farmbot_autonomous_pkg/resource/farmbot_autonomous_pkg -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/share/ament_index/resource_index/packages
+[3.126s] symbolically linking /home/asgard/farmbot/build/farmbot_autonomous_pkg/package.xml -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/share/farmbot_autonomous_pkg
+[3.126s] symbolically linking /home/asgard/farmbot/build/farmbot_autonomous_pkg/launch/world_gazebo.launch.py -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/share/farmbot_autonomous_pkg/launch
+[3.126s] symbolically linking /home/asgard/farmbot/build/farmbot_autonomous_pkg/launch/vision_odometry.launch.py -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/share/farmbot_autonomous_pkg/launch
+[3.126s] symbolically linking /home/asgard/farmbot/build/farmbot_autonomous_pkg/worlds/farmland.world -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/share/farmbot_autonomous_pkg/worlds
+[3.150s] Invoked command in '/home/asgard/farmbot/build/farmbot_autonomous_pkg' returned '0': PYTHONPATH=/home/asgard/farmbot/build/farmbot_autonomous_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/asgard/farmbot/build/farmbot_autonomous_pkg/build --no-deps symlink_data --force

@@ -1,0 +1,1 @@
+/home/asgard/farmbot/build/rtabmap_msgs/rosidl_typesupport_introspection_c/rtabmap_msgs/msg/detail/info__rosidl_typesupport_introspection_c.h

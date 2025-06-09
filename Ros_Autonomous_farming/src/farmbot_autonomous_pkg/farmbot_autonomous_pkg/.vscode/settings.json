@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/asgard/husky_ws/install/husky_msgs/local/lib/python3.10/dist-packages",
+        "/home/asgard/farmbot/install/rtabmap_msgs/local/lib/python3.10/dist-packages",
+        "/home/asgard/farmbot/build/farmbot_autonomous_pkg",
+        "/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages",
+        "/home/asgard/placement/install/self_driving_car_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/asgard/husky_ws/install/husky_msgs/local/lib/python3.10/dist-packages",
+        "/home/asgard/farmbot/install/rtabmap_msgs/local/lib/python3.10/dist-packages",
+        "/home/asgard/farmbot/build/farmbot_autonomous_pkg",
+        "/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages",
+        "/home/asgard/placement/install/self_driving_car_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

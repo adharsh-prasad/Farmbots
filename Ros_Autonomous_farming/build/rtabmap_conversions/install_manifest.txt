@@ -1,0 +1,4 @@
+/home/asgard/farmbot/install/rtabmap_conversions/lib/librtabmap_conversions.so
+/home/asgard/farmbot/install/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h
+/home/asgard/farmbot/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsExport.cmake
+/home/asgard/farmbot/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsExport-noconfig.cmake

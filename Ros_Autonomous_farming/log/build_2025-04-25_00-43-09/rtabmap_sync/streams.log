@@ -1,0 +1,117 @@
+[0.011s] Invoking command in '/home/asgard/farmbot/build/rtabmap_sync': AMENT_PREFIX_PATH=/home/asgard/farmbot/install/rtabmap_conversions:/home/asgard/farmbot/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asgard/farmbot/install/rtabmap_conversions:/home/asgard/farmbot/install/rtabmap_msgs:/home/asgard/husky_ws/install/husky_desktop:/home/asgard/husky_ws/install/husky_viz:/home/asgard/husky_ws/install/husky_simulator:/home/asgard/husky_ws/install/husky_robot:/home/asgard/husky_ws/install/husky_bringup:/home/asgard/husky_ws/install/husky_base:/home/asgard/husky_ws/install/husky_msgs:/home/asgard/husky_ws/install/husky_gazebo:/home/asgard/husky_ws/install/husky_control:/home/asgard/husky_ws/install/husky_description:/home/asgard/farmbot/install/rtabmap_ros:/home/asgard/farmbot/install/farmbot_autonomous_pkg:/home/asgard/placement/install/self_driving_car_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/asgard/farmbot/install/rtabmap_conversions/lib:/home/asgard/farmbot/install/rtabmap_msgs/lib:/home/asgard/husky_ws/install/husky_base/lib:/home/asgard/husky_ws/install/husky_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/asgard/farmbot/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/asgard/farmbot/src/rtabmap_ros/rtabmap_sync -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/asgard/farmbot/install/rtabmap_sync
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.121s] -- The CXX compiler identification is GNU 11.4.0
+[0.128s] -- Detecting C compiler ABI info
+[0.207s] -- Detecting C compiler ABI info - done
+[0.217s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.217s] -- Detecting C compile features
+[0.218s] -- Detecting C compile features - done
+[0.221s] -- Detecting CXX compiler ABI info
+[0.302s] -- Detecting CXX compiler ABI info - done
+[0.309s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.310s] -- Detecting CXX compile features
+[0.310s] -- Detecting CXX compile features - done
+[0.313s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.453s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.513s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.626s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.635s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.647s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.663s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.687s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.101s] -- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+[1.316s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.320s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.413s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.444s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.494s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.508s] -- Looking for pthread.h
+[1.575s] -- Looking for pthread.h - found
+[1.575s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.644s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.645s] -- Found Threads: TRUE  
+[1.971s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.094s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.129s] -- Found rtabmap_conversions: 0.21.10 (/home/asgard/farmbot/install/rtabmap_conversions/share/rtabmap_conversions/cmake)
+[2.196s] -- Checking for module 'eigen3'
+[2.208s] --   Found eigen3, version 3.4.0
+[2.235s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.235s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.281s] -- Checking for module 'flann'
+[2.294s] --   Found flann, version 1.9.1
+[2.329s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.329s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.279s] -- Checking for module 'libusb-1.0'
+[3.291s] --   Found libusb-1.0, version 1.0.25
+[3.322s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.323s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.372s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.545s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.551s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.557s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.722s] -- Found Qhull version 8.0.2
+[3.890s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.053s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.054s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.055s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.056s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.057s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.058s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.059s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.059s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.060s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.061s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.062s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.063s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.065s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.066s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.067s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.068s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.069s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.070s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.071s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.072s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.073s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.074s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.074s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.075s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.076s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.221s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.221s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.227s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package):
+[4.227s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[4.227s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[4.227s]   command to set the policy and suppress this warning.
+[4.227s] 
+[4.228s]   CMake variable PCL_ROOT is set to:
+[4.228s] 
+[4.228s]     /usr
+[4.228s] 
+[4.228s]   For compatibility, CMake is ignoring the variable.
+[4.228s] Call Stack (most recent call first):
+[4.228s]   /opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)
+[4.228s]   /home/asgard/farmbot/install/rtabmap_conversions/share/rtabmap_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.228s]   /home/asgard/farmbot/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsConfig.cmake:41 (include)
+[4.228s]   CMakeLists.txt:10 (find_package)
+[4.228s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.228s] [0m
+[4.790s] -- Found diagnostic_updater: 4.0.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[4.957s] -- RTABMAP_SYNC_MULTI_RGBD = OFF
+[4.957s] -- RTABMAP_SYNC_USER_DATA  = OFF
+[5.076s] -- Configuring done
+[5.295s] -- Generating done
+[5.352s] -- Build files have been written to: /home/asgard/farmbot/build/rtabmap_sync
+[5.371s] Invoked command in '/home/asgard/farmbot/build/rtabmap_sync' returned '0': AMENT_PREFIX_PATH=/home/asgard/farmbot/install/rtabmap_conversions:/home/asgard/farmbot/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asgard/farmbot/install/rtabmap_conversions:/home/asgard/farmbot/install/rtabmap_msgs:/home/asgard/husky_ws/install/husky_desktop:/home/asgard/husky_ws/install/husky_viz:/home/asgard/husky_ws/install/husky_simulator:/home/asgard/husky_ws/install/husky_robot:/home/asgard/husky_ws/install/husky_bringup:/home/asgard/husky_ws/install/husky_base:/home/asgard/husky_ws/install/husky_msgs:/home/asgard/husky_ws/install/husky_gazebo:/home/asgard/husky_ws/install/husky_control:/home/asgard/husky_ws/install/husky_description:/home/asgard/farmbot/install/rtabmap_ros:/home/asgard/farmbot/install/farmbot_autonomous_pkg:/home/asgard/placement/install/self_driving_car_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/asgard/farmbot/install/rtabmap_conversions/lib:/home/asgard/farmbot/install/rtabmap_msgs/lib:/home/asgard/husky_ws/install/husky_base/lib:/home/asgard/husky_ws/install/husky_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/asgard/farmbot/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/asgard/farmbot/src/rtabmap_ros/rtabmap_sync -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/asgard/farmbot/install/rtabmap_sync
+[5.373s] Invoking command in '/home/asgard/farmbot/build/rtabmap_sync': AMENT_PREFIX_PATH=/home/asgard/farmbot/install/rtabmap_conversions:/home/asgard/farmbot/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asgard/farmbot/install/rtabmap_conversions:/home/asgard/farmbot/install/rtabmap_msgs:/home/asgard/husky_ws/install/husky_desktop:/home/asgard/husky_ws/install/husky_viz:/home/asgard/husky_ws/install/husky_simulator:/home/asgard/husky_ws/install/husky_robot:/home/asgard/husky_ws/install/husky_bringup:/home/asgard/husky_ws/install/husky_base:/home/asgard/husky_ws/install/husky_msgs:/home/asgard/husky_ws/install/husky_gazebo:/home/asgard/husky_ws/install/husky_control:/home/asgard/husky_ws/install/husky_description:/home/asgard/farmbot/install/rtabmap_ros:/home/asgard/farmbot/install/farmbot_autonomous_pkg:/home/asgard/placement/install/self_driving_car_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/asgard/farmbot/install/rtabmap_conversions/lib:/home/asgard/farmbot/install/rtabmap_msgs/lib:/home/asgard/husky_ws/install/husky_base/lib:/home/asgard/husky_ws/install/husky_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/asgard/farmbot/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asgard/farmbot/build/rtabmap_sync -- -j12 -l12
+[5.454s] [  4%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbdx_sync.cpp.o[0m
+[5.455s] [  8%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/CommonDataSubscriber.cpp.o[0m
+[5.456s] [ 13%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbd_sync.cpp.o[0m
+[5.457s] [ 17%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberDepth.cpp.o[0m
+[5.457s] [ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/stereo_sync.cpp.o[0m
+[5.458s] [ 26%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberStereo.cpp.o[0m
+[5.459s] [ 30%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgb_sync.cpp.o[0m
+[5.460s] [ 34%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGB.cpp.o[0m
+[5.460s] [ 39%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGBDX.cpp.o[0m
+[5.461s] [ 43%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGBD.cpp.o[0m
+[5.463s] [ 47%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberScan.cpp.o[0m
+[5.465s] [ 52%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberOdom.cpp.o[0m

@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.000128] (farmbot_autonomous_pkg) JobQueued: {'identifier': 'farmbot_autonomous_pkg', 'dependencies': OrderedDict()}
+[0.000160] (farmbot_autonomous_pkg) JobStarted: {'identifier': 'farmbot_autonomous_pkg'}
+[0.099664] (-) TimerEvent: {}
+[0.200543] (-) TimerEvent: {}
+[0.301259] (-) TimerEvent: {}
+[0.401975] (-) TimerEvent: {}
+[0.502406] (-) TimerEvent: {}
+[0.604873] (-) TimerEvent: {}
+[0.705463] (-) TimerEvent: {}
+[0.805744] (-) TimerEvent: {}
+[0.906016] (-) TimerEvent: {}
+[1.006646] (-) TimerEvent: {}
+[1.107427] (-) TimerEvent: {}
+[1.208371] (-) TimerEvent: {}
+[1.308895] (-) TimerEvent: {}
+[1.409123] (-) TimerEvent: {}
+[1.509383] (-) TimerEvent: {}
+[1.609607] (-) TimerEvent: {}
+[1.710334] (-) TimerEvent: {}
+[1.811073] (-) TimerEvent: {}
+[1.911726] (-) TimerEvent: {}
+[2.012359] (-) TimerEvent: {}
+[2.112975] (-) TimerEvent: {}
+[2.213904] (-) TimerEvent: {}
+[2.314776] (-) TimerEvent: {}
+[2.415362] (-) TimerEvent: {}
+[2.515639] (-) TimerEvent: {}
+[2.615991] (-) TimerEvent: {}
+[2.716876] (-) TimerEvent: {}
+[2.817487] (-) TimerEvent: {}
+[2.918319] (-) TimerEvent: {}
+[3.018975] (-) TimerEvent: {}
+[3.119310] (-) TimerEvent: {}
+[3.219981] (-) TimerEvent: {}
+[3.320849] (-) TimerEvent: {}
+[3.421516] (-) TimerEvent: {}
+[3.522109] (-) TimerEvent: {}
+[3.622407] (-) TimerEvent: {}
+[3.723075] (-) TimerEvent: {}
+[3.823994] (-) TimerEvent: {}
+[3.924901] (-) TimerEvent: {}
+[4.025574] (-) TimerEvent: {}
+[4.126470] (-) TimerEvent: {}
+[4.227414] (-) TimerEvent: {}
+[4.328052] (-) TimerEvent: {}
+[4.428905] (-) TimerEvent: {}
+[4.529805] (-) TimerEvent: {}
+[4.630466] (-) TimerEvent: {}
+[4.731359] (-) TimerEvent: {}
+[4.832138] (-) TimerEvent: {}
+[4.933115] (-) TimerEvent: {}
+[5.033972] (-) TimerEvent: {}
+[5.134972] (-) TimerEvent: {}
+[5.235973] (-) TimerEvent: {}
+[5.336964] (-) TimerEvent: {}
+[5.437685] (-) TimerEvent: {}
+[5.538481] (-) TimerEvent: {}
+[5.639141] (-) TimerEvent: {}
+[5.739908] (-) TimerEvent: {}
+[5.840906] (-) TimerEvent: {}
+[5.941751] (-) TimerEvent: {}
+[6.042746] (-) TimerEvent: {}
+[6.143431] (-) TimerEvent: {}
+[6.244020] (-) TimerEvent: {}
+[6.344715] (-) TimerEvent: {}
+[6.445673] (-) TimerEvent: {}
+[6.546633] (-) TimerEvent: {}
+[6.647189] (-) TimerEvent: {}
+[6.747419] (-) TimerEvent: {}
+[6.848105] (-) TimerEvent: {}
+[6.948468] (-) TimerEvent: {}
+[7.048948] (-) TimerEvent: {}
+[7.149203] (-) TimerEvent: {}
+[7.249579] (-) TimerEvent: {}
+[7.349934] (-) TimerEvent: {}
+[7.450273] (-) TimerEvent: {}
+[7.550553] (-) TimerEvent: {}
+[7.650831] (-) TimerEvent: {}
+[7.751102] (-) TimerEvent: {}
+[7.851368] (-) TimerEvent: {}
+[7.951664] (-) TimerEvent: {}
+[8.051935] (-) TimerEvent: {}
+[8.152209] (-) TimerEvent: {}
+[8.252478] (-) TimerEvent: {}
+[8.352740] (-) TimerEvent: {}
+[8.453045] (-) TimerEvent: {}
+[8.553308] (-) TimerEvent: {}
+[8.653658] (-) TimerEvent: {}
+[8.754177] (-) TimerEvent: {}
+[8.854675] (-) TimerEvent: {}
+[8.955029] (-) TimerEvent: {}
+[9.055587] (-) TimerEvent: {}
+[9.137538] (farmbot_autonomous_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/asgard/farmbot/build/farmbot_autonomous_pkg/build'], 'cwd': '/home/asgard/farmbot/build/farmbot_autonomous_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'asgard', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/asgard/husky_ws/install/husky_base/lib:/home/asgard/husky_ws/install/husky_msgs/lib:/home/asgard/farmbot/install/rtabmap_conversions/lib:/home/asgard/farmbot/install/rtabmap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/asgard', 'OLDPWD': '/home/asgard/farmbot/src', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1462', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ee8472f0b6c45d9715c8f09368202e24', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/asgard/farmbot/install:/home/asgard/husky_ws/install:/home/asgard/placement/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'asgard', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'asgard', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models:/home/asgard/.gazebo/models:/home/asgard/.gazebo/models:/home/asgard/gazebo_models_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:/home/asgard/.gazebo/models:/home/asgard/placement/src/aws-robomaker-racetrack-world/models:/home/asgard/placement/src/car_demo:/home/asgard/.gazebo/models/terrain_model:/home/asgard/aws-robomaker-racetrack-world/models:/home/asgard/aws-robomaker-racetrack-world/models:/home/asgard/car_demo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/home/asgard/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/asgard-HP-Pavilion-Gaming-Laptop-15-dk0xxx:@/tmp/.ICE-unix/1462,unix/asgard-HP-Pavilion-Gaming-Laptop-15-dk0xxx:/tmp/.ICE-unix/1462', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bec2c4ed_a0af_491c_b1a0_e0a0dd87f381', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TNLN62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.121', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/asgard/husky_ws/install/husky_desktop:/home/asgard/husky_ws/install/husky_viz:/home/asgard/husky_ws/install/husky_simulator:/home/asgard/husky_ws/install/husky_robot:/home/asgard/husky_ws/install/husky_bringup:/home/asgard/husky_ws/install/husky_base:/home/asgard/husky_ws/install/husky_msgs:/home/asgard/husky_ws/install/husky_gazebo:/home/asgard/husky_ws/install/husky_control:/home/asgard/husky_ws/install/husky_description:/home/asgard/farmbot/install/rtabmap_conversions:/home/asgard/farmbot/install/rtabmap_msgs:/home/asgard/farmbot/install/farmbot_autonomous_pkg:/home/asgard/placement/install/self_driving_car_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/asgard/farmbot/build/farmbot_autonomous_pkg', 'QT_QPA_PLATFORM': 'xcb', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ee8472f0b6c45d9715c8f09368202e24', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/asgard/farmbot/build/farmbot_autonomous_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages:/home/asgard/husky_ws/install/husky_msgs/local/lib/python3.10/dist-packages:/home/asgard/farmbot/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/home/asgard/farmbot/build/farmbot_autonomous_pkg:/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages:/home/asgard/placement/install/self_driving_car_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/asgard/husky_ws/install/husky_desktop:/home/asgard/husky_ws/install/husky_viz:/home/asgard/husky_ws/install/husky_simulator:/home/asgard/husky_ws/install/husky_robot:/home/asgard/husky_ws/install/husky_bringup:/home/asgard/husky_ws/install/husky_base:/home/asgard/husky_ws/install/husky_msgs:/home/asgard/husky_ws/install/husky_gazebo:/home/asgard/husky_ws/install/husky_control:/home/asgard/husky_ws/install/husky_description:/home/asgard/farmbot/install/rtabmap_conversions:/home/asgard/farmbot/install/rtabmap_msgs'}, 'shell': False}
+[9.155738] (-) TimerEvent: {}
+[9.256036] (-) TimerEvent: {}
+[9.356251] (-) TimerEvent: {}
+[9.448950] (farmbot_autonomous_pkg) StdoutLine: {'line': b'running develop\n'}
+[9.456612] (-) TimerEvent: {}
+[9.556943] (-) TimerEvent: {}
+[9.657431] (-) TimerEvent: {}
+[9.757708] (-) TimerEvent: {}
+[9.780971] (farmbot_autonomous_pkg) StdoutLine: {'line': b'Removing /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot-autonomous-pkg.egg-link (link to .)\n'}
+[9.806316] (farmbot_autonomous_pkg) CommandEnded: {'returncode': 0}
+[9.807915] (farmbot_autonomous_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/farmbot_autonomous_pkg', 'build', '--build-base', '/home/asgard/farmbot/build/farmbot_autonomous_pkg/build', 'install', '--record', '/home/asgard/farmbot/build/farmbot_autonomous_pkg/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/asgard/farmbot/src/farmbot_autonomous_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'asgard', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/asgard/husky_ws/install/husky_base/lib:/home/asgard/husky_ws/install/husky_msgs/lib:/home/asgard/farmbot/install/rtabmap_conversions/lib:/home/asgard/farmbot/install/rtabmap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/asgard', 'OLDPWD': '/home/asgard/farmbot/src', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1462', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ee8472f0b6c45d9715c8f09368202e24', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/asgard/farmbot/install:/home/asgard/husky_ws/install:/home/asgard/placement/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'asgard', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'asgard', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models:/home/asgard/.gazebo/models:/home/asgard/.gazebo/models:/home/asgard/gazebo_models_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:/home/asgard/.gazebo/models:/home/asgard/placement/src/aws-robomaker-racetrack-world/models:/home/asgard/placement/src/car_demo:/home/asgard/.gazebo/models/terrain_model:/home/asgard/aws-robomaker-racetrack-world/models:/home/asgard/aws-robomaker-racetrack-world/models:/home/asgard/car_demo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/home/asgard/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/asgard-HP-Pavilion-Gaming-Laptop-15-dk0xxx:@/tmp/.ICE-unix/1462,unix/asgard-HP-Pavilion-Gaming-Laptop-15-dk0xxx:/tmp/.ICE-unix/1462', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bec2c4ed_a0af_491c_b1a0_e0a0dd87f381', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TNLN62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.121', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/asgard/husky_ws/install/husky_desktop:/home/asgard/husky_ws/install/husky_viz:/home/asgard/husky_ws/install/husky_simulator:/home/asgard/husky_ws/install/husky_robot:/home/asgard/husky_ws/install/husky_bringup:/home/asgard/husky_ws/install/husky_base:/home/asgard/husky_ws/install/husky_msgs:/home/asgard/husky_ws/install/husky_gazebo:/home/asgard/husky_ws/install/husky_control:/home/asgard/husky_ws/install/husky_description:/home/asgard/farmbot/install/rtabmap_conversions:/home/asgard/farmbot/install/rtabmap_msgs:/home/asgard/farmbot/install/farmbot_autonomous_pkg:/home/asgard/placement/install/self_driving_car_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/asgard/farmbot/build/farmbot_autonomous_pkg', 'QT_QPA_PLATFORM': 'xcb', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ee8472f0b6c45d9715c8f09368202e24', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/asgard/farmbot/build/farmbot_autonomous_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages:/home/asgard/husky_ws/install/husky_msgs/local/lib/python3.10/dist-packages:/home/asgard/farmbot/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/home/asgard/farmbot/build/farmbot_autonomous_pkg:/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages:/home/asgard/placement/install/self_driving_car_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/asgard/husky_ws/install/husky_desktop:/home/asgard/husky_ws/install/husky_viz:/home/asgard/husky_ws/install/husky_simulator:/home/asgard/husky_ws/install/husky_robot:/home/asgard/husky_ws/install/husky_bringup:/home/asgard/husky_ws/install/husky_base:/home/asgard/husky_ws/install/husky_msgs:/home/asgard/husky_ws/install/husky_gazebo:/home/asgard/husky_ws/install/husky_control:/home/asgard/husky_ws/install/husky_description:/home/asgard/farmbot/install/rtabmap_conversions:/home/asgard/farmbot/install/rtabmap_msgs'}, 'shell': False}
+[9.857795] (-) TimerEvent: {}
+[9.958051] (-) TimerEvent: {}
+[10.058228] (-) TimerEvent: {}
+[10.087649] (farmbot_autonomous_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[10.088393] (farmbot_autonomous_pkg) StdoutLine: {'line': b'writing ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/PKG-INFO\n'}
+[10.088592] (farmbot_autonomous_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/dependency_links.txt\n'}
+[10.088759] (farmbot_autonomous_pkg) StdoutLine: {'line': b'writing entry points to ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/entry_points.txt\n'}
+[10.088967] (farmbot_autonomous_pkg) StdoutLine: {'line': b'writing requirements to ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/requires.txt\n'}
+[10.089056] (farmbot_autonomous_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/top_level.txt\n'}
+[10.093744] (farmbot_autonomous_pkg) StdoutLine: {'line': b"reading manifest file '../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/SOURCES.txt'\n"}
+[10.104250] (farmbot_autonomous_pkg) StdoutLine: {'line': b"writing manifest file '../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info/SOURCES.txt'\n"}
+[10.104530] (farmbot_autonomous_pkg) StdoutLine: {'line': b'running build\n'}
+[10.104639] (farmbot_autonomous_pkg) StdoutLine: {'line': b'running build_py\n'}
+[10.104789] (farmbot_autonomous_pkg) StdoutLine: {'line': b'copying farmbot_autonomous_pkg/gps_publisher.py -> /home/asgard/farmbot/build/farmbot_autonomous_pkg/build/lib/farmbot_autonomous_pkg\n'}
+[10.104874] (farmbot_autonomous_pkg) StdoutLine: {'line': b'copying farmbot_autonomous_pkg/vis_odem_node.py -> /home/asgard/farmbot/build/farmbot_autonomous_pkg/build/lib/farmbot_autonomous_pkg\n'}
+[10.105486] (farmbot_autonomous_pkg) StdoutLine: {'line': b'running install\n'}
+[10.105744] (farmbot_autonomous_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[10.106548] (farmbot_autonomous_pkg) StdoutLine: {'line': b'creating /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg\n'}
+[10.106665] (farmbot_autonomous_pkg) StdoutLine: {'line': b'copying /home/asgard/farmbot/build/farmbot_autonomous_pkg/build/lib/farmbot_autonomous_pkg/__init__.py -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg\n'}
+[10.106865] (farmbot_autonomous_pkg) StdoutLine: {'line': b'copying /home/asgard/farmbot/build/farmbot_autonomous_pkg/build/lib/farmbot_autonomous_pkg/gps_publisher.py -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg\n'}
+[10.106982] (farmbot_autonomous_pkg) StdoutLine: {'line': b'copying /home/asgard/farmbot/build/farmbot_autonomous_pkg/build/lib/farmbot_autonomous_pkg/vis_odem_node.py -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg\n'}
+[10.107073] (farmbot_autonomous_pkg) StdoutLine: {'line': b'copying /home/asgard/farmbot/build/farmbot_autonomous_pkg/build/lib/farmbot_autonomous_pkg/vision_node.py -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg\n'}
+[10.107778] (farmbot_autonomous_pkg) StdoutLine: {'line': b'byte-compiling /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[10.107967] (farmbot_autonomous_pkg) StdoutLine: {'line': b'byte-compiling /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg/gps_publisher.py to gps_publisher.cpython-310.pyc\n'}
+[10.108634] (farmbot_autonomous_pkg) StdoutLine: {'line': b'byte-compiling /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg/vis_odem_node.py to vis_odem_node.cpython-310.pyc\n'}
+[10.109460] (farmbot_autonomous_pkg) StdoutLine: {'line': b'byte-compiling /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg/vision_node.py to vision_node.cpython-310.pyc\n'}
+[10.109775] (farmbot_autonomous_pkg) StdoutLine: {'line': b'running install_data\n'}
+[10.109986] (farmbot_autonomous_pkg) StdoutLine: {'line': b'copying resource/farmbot_autonomous_pkg -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/share/ament_index/resource_index/packages\n'}
+[10.110071] (farmbot_autonomous_pkg) StdoutLine: {'line': b'copying package.xml -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/share/farmbot_autonomous_pkg\n'}
+[10.125119] (farmbot_autonomous_pkg) StdoutLine: {'line': b'copying launch/world_gazebo.launch.py -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/share/farmbot_autonomous_pkg/launch\n'}
+[10.142932] (farmbot_autonomous_pkg) StdoutLine: {'line': b'copying launch/vision_odometry.launch.py -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/share/farmbot_autonomous_pkg/launch\n'}
+[10.158339] (-) TimerEvent: {}
+[10.160441] (farmbot_autonomous_pkg) StdoutLine: {'line': b'copying worlds/farmland.world -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/share/farmbot_autonomous_pkg/worlds\n'}
+[10.161085] (farmbot_autonomous_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.162928] (farmbot_autonomous_pkg) StdoutLine: {'line': b'Copying ../../build/farmbot_autonomous_pkg/farmbot_autonomous_pkg.egg-info to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot_autonomous_pkg-0.0.0-py3.10.egg-info\n'}
+[10.164052] (farmbot_autonomous_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[10.182734] (farmbot_autonomous_pkg) StdoutLine: {'line': b'Installing gps_publisher script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg\n'}
+[10.182976] (farmbot_autonomous_pkg) StdoutLine: {'line': b'Installing vis_odem_node script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg\n'}
+[10.183055] (farmbot_autonomous_pkg) StdoutLine: {'line': b'Installing vision_node script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg\n'}
+[10.183190] (farmbot_autonomous_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/asgard/farmbot/build/farmbot_autonomous_pkg/install.log'\n"}
+[10.204326] (farmbot_autonomous_pkg) CommandEnded: {'returncode': 0}
+[10.258544] (-) TimerEvent: {}
+[10.360466] (-) TimerEvent: {}
+[10.366881] (farmbot_autonomous_pkg) JobEnded: {'identifier': 'farmbot_autonomous_pkg', 'rc': 0}
+[10.369445] (-) EventReactorShutdown: {}

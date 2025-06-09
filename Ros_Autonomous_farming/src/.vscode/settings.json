@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages",
+        "/home/asgard/placement/install/self_driving_car_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages",
+        "/home/asgard/placement/install/self_driving_car_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

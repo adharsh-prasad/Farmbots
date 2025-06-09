@@ -1,0 +1,1 @@
+/home/asgard/farmbot/build/rtabmap_msgs/rosidl_typesupport_fastrtps_c/rtabmap_msgs/srv/detail/reset_pose__rosidl_typesupport_fastrtps_c.h

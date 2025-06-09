@@ -1,0 +1,1 @@
+/home/asgard/farmbot/build/rtabmap_msgs/rosidl_generator_c/rtabmap_msgs/msg/detail/odom_info__struct.h

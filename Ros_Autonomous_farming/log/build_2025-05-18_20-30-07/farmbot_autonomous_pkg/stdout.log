@@ -1,0 +1,23 @@
+running develop
+running egg_info
+writing farmbot_autonomous_pkg.egg-info/PKG-INFO
+writing dependency_links to farmbot_autonomous_pkg.egg-info/dependency_links.txt
+writing entry points to farmbot_autonomous_pkg.egg-info/entry_points.txt
+writing requirements to farmbot_autonomous_pkg.egg-info/requires.txt
+writing top-level names to farmbot_autonomous_pkg.egg-info/top_level.txt
+reading manifest file 'farmbot_autonomous_pkg.egg-info/SOURCES.txt'
+writing manifest file 'farmbot_autonomous_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/python3.10/site-packages/farmbot-autonomous-pkg.egg-link (link to .)
+Installing gps_publisher script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+Installing vis_odem_node script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+Installing vision_node script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+Installing yolo_node script to /home/asgard/farmbot/install/farmbot_autonomous_pkg/lib/farmbot_autonomous_pkg
+
+Installed /home/asgard/farmbot/build/farmbot_autonomous_pkg
+running symlink_data
+symbolically linking /home/asgard/farmbot/build/farmbot_autonomous_pkg/resource/farmbot_autonomous_pkg -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/asgard/farmbot/build/farmbot_autonomous_pkg/package.xml -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/share/farmbot_autonomous_pkg
+symbolically linking /home/asgard/farmbot/build/farmbot_autonomous_pkg/launch/world_gazebo.launch.py -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/share/farmbot_autonomous_pkg/launch
+symbolically linking /home/asgard/farmbot/build/farmbot_autonomous_pkg/launch/vision_odometry.launch.py -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/share/farmbot_autonomous_pkg/launch
+symbolically linking /home/asgard/farmbot/build/farmbot_autonomous_pkg/worlds/farmland.world -> /home/asgard/farmbot/install/farmbot_autonomous_pkg/share/farmbot_autonomous_pkg/worlds

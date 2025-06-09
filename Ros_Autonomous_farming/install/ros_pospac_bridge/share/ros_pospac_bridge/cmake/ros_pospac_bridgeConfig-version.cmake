@@ -1,0 +1,1 @@
+/home/asgard/farmbot/build/ros_pospac_bridge/ament_cmake_core/ros_pospac_bridgeConfig-version.cmake

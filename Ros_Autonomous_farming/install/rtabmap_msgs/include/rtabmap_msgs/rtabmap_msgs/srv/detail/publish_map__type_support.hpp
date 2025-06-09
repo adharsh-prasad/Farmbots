@@ -1,0 +1,1 @@
+/home/asgard/farmbot/build/rtabmap_msgs/rosidl_generator_cpp/rtabmap_msgs/srv/detail/publish_map__type_support.hpp

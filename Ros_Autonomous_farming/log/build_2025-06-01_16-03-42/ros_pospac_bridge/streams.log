@@ -1,0 +1,30 @@
+[0.667s] Invoking command in '/home/asgard/farmbot/build/ros_pospac_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asgard/farmbot/install/farmbot_autonomous_pkg:/home/asgard/placement/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --build /home/asgard/farmbot/build/ros_pospac_bridge -- -j12 -l12
+[3.285s] [100%] Built target ros_pospac_bridge
+[3.302s] Invoked command in '/home/asgard/farmbot/build/ros_pospac_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asgard/farmbot/install/farmbot_autonomous_pkg:/home/asgard/placement/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --build /home/asgard/farmbot/build/ros_pospac_bridge -- -j12 -l12
+[3.376s] Invoking command in '/home/asgard/farmbot/build/ros_pospac_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asgard/farmbot/install/farmbot_autonomous_pkg:/home/asgard/placement/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --install /home/asgard/farmbot/build/ros_pospac_bridge
+[3.389s] -- Install configuration: ""
+[3.420s] -- Execute custom install script
+[3.445s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/lib/ros_pospac_bridge/ros_pospac_bridge
+[3.468s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/launch/ros_pospac_bridge.launch.xml
+[3.478s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/config/ros_pospac_bridge.config.yaml
+[3.500s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/include/ros_pospac_bridge/ros_pospac_bridge.hpp
+[3.506s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/launch/ros_pospac_bridge.launch.xml
+[3.507s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/config/ros_pospac_bridge.config.yaml
+[3.507s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/share/ament_index/resource_index/package_run_dependencies/ros_pospac_bridge
+[3.516s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/share/ament_index/resource_index/parent_prefix_path/ros_pospac_bridge
+[3.520s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/environment/ament_prefix_path.sh
+[3.521s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/environment/ament_prefix_path.dsv
+[3.522s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/environment/path.sh
+[3.523s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/environment/path.dsv
+[3.524s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/local_setup.bash
+[3.525s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/local_setup.sh
+[3.526s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/local_setup.zsh
+[3.527s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/local_setup.dsv
+[3.527s] -- Symlinking: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/package.dsv
+[3.608s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/share/ament_index/resource_index/packages/ros_pospac_bridge
+[3.751s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.785s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.951s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/cmake/ros_pospac_bridgeConfig.cmake
+[4.022s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/cmake/ros_pospac_bridgeConfig-version.cmake
+[4.150s] -- Up-to-date symlink: /home/asgard/farmbot/install/ros_pospac_bridge/share/ros_pospac_bridge/package.xml
+[4.158s] Invoked command in '/home/asgard/farmbot/build/ros_pospac_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asgard/farmbot/install/farmbot_autonomous_pkg:/home/asgard/placement/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --install /home/asgard/farmbot/build/ros_pospac_bridge
